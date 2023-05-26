@@ -40,20 +40,7 @@ class CustomModal extends Component {
         <ModalBody>
          
           <Form>
- 
-            {/* 3 formgroups
-            1 title label */}
-            <FormGroup>
-              <Label for="title">Title</Label>
-              <Input
-                type="text"
-                name="title"
-                value={this.state.activeItem.title}
-                onChange={this.handleChange}
-                placeholder="Enter Task Title"
-              />
-            </FormGroup>
- 
+            
             {/* 2 description label */}
             <FormGroup>
               <Label for="description">Description</Label>
